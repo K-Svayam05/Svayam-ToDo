@@ -1,0 +1,82 @@
+.svg-exceed {
+    font-family: Russo One,sans-serif;
+    height: 100%;
+    position: absolute;
+    width: 100%
+}
+
+.svg-exceed .svg-text-exceed {
+    stroke-width: 2;
+    stroke: #f44336;
+    -webkit-animation: stroke 5s infinite alternate;
+    animation: stroke 5s infinite alternate;
+    font-size: 140px;
+    text-transform: uppercase
+}
+
+@-webkit-keyframes stroke {
+    0% {
+        fill: rgba(72,138,20,0);
+        stroke: #f44336;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2
+    }
+
+    70% {
+        fill: rgba(72,138,20,0);
+        stroke: #f44336
+    }
+
+    80% {
+        fill: rgba(72,138,20,0);
+        stroke: #f44336;
+        stroke-width: 3
+    }
+
+    to {
+        fill: #f44336;
+        stroke: rgba(54,95,160,0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0
+    }
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(72,138,20,0);
+        stroke: #f44336;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2
+    }
+
+    70% {
+        fill: rgba(72,138,20,0);
+        stroke: #f44336
+    }
+
+    80% {
+        fill: rgba(72,138,20,0);
+        stroke: #f44336;
+        stroke-width: 3
+    }
+
+    to {
+        fill: #f44336;
+        stroke: rgba(54,95,160,0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0
+    }
+}
+
+/*# sourceMappingURL=44.05199eec.chunk.css.map*/
+[draggable="true"] {
+    cursor: move;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
